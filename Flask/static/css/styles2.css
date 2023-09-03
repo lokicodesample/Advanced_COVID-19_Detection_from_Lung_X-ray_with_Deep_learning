@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #025464;
+    color: #F8F1F1;
+}
+.navbar a{
+    color: #F8F1F1;
+    text-decoration: none;
+}

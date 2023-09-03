@@ -1,0 +1,27 @@
+# important library 
+
+
+
+import os
+import shutil
+import zipfile
+import random
+import csv
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+from tensorflow import keras
+from keras.models import load_model
+from sklearn import preprocessing
+from tensorflow.keras.preprocessing import image
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+from tqdm import tqdm
+import matplotlib.pyplot as plt
+from PIL import Image
+import cv2
+from tensorflow.keras.applications.xception import preprocess_input
+from tensorflow.keras.preprocessing import image
+import numpy as np

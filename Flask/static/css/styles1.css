@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #025464;
+    color: #F8F1F1;
+}
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.container .heading{
+    font-size: 50px;
+    border-bottom: 5px #E57C23 solid;
+    text-align: center;
+}
+/* .container p{
+    background-color: #ACBCFF;
+} */
+/* .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 40px auto;
+} */
+.image1{
+    margin: 20px;
+    border-radius: 20px;
+    max-width: 680px;
+    /* position: absolute; */
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.whoLogo{
+    width: 90px;
+    margin-right: 40px;
+}
+h2{
+    color: black;
+}
+.content{
+    text-align: center;
+    margin: 20px 0;
+    border: #E57C23 4px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.content p{
+    line-height: 1.8;
+    font-size: 24px;
+}
